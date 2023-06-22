@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def CS_BCSNP(y:np.ndarray, A:np.ndarray, maxiter:int)->np.ndarray:
     '''
     Zhou, Zhou, Kaihui Liu, and Jun Fang. "Bayesian compressive sensing using normal product priors." IEEE Signal Processing Letters 22.5 (2014): 583-587.
